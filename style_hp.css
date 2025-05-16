@@ -1,0 +1,22 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #1f2937;
+}
+
+.bg-blue-800 {
+  background-color: #1e40af;
+}
+
+.text-blue-800 {
+  color: #1e40af;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: #1d4ed8;
+}
