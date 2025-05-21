@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NescaffeHub - Semangat Baru</title>
+  <title>VioletWear - Street Style</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            primary: '#b30000',
-            dark: '#1a1a1a'
+            primary: '#6b21a8', // Ungu tua
+            dark: '#0f0f0f'
           }
         }
       }
@@ -21,10 +21,10 @@
 <body class="bg-dark text-white font-sans">
   <header class="bg-primary text-white py-4 shadow">
     <div class="container mx-auto px-6 flex justify-between items-center">
-      <div class="text-2xl font-bold">NescaffeHub</div>
+      <div class="text-2xl font-bold">VioletWear</div>
       <nav class="space-x-4">
         <a href="#produk" class="hover:underline">Produk</a>
-        <a href="#promo" class="hover:underline">Promo</a>
+        <a href="#tentang" class="hover:underline">Tentang</a>
         <a href="#kontak" class="hover:underline">Kontak</a>
         <a href="login.html" class="bg-white text-primary px-4 py-2 rounded hover:bg-gray-200">Login</a>
       </nav>
@@ -32,54 +32,47 @@
   </header>
 
   <section class="text-center py-16 bg-dark text-white">
-    <h1 class="text-4xl font-bold mb-4">Selamat Datang di <span class="text-primary">NescaffeHub</span></h1>
-    <p class="text-lg mb-6">Temukan semangat baru bersama kopi favoritmu!</p>
-    <a href="#produk" class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-red-700">Lihat Produk</a>
+    <h1 class="text-4xl font-bold mb-4">Gaya Urbanmu Dimulai dari <span class="text-primary">VioletWear</span></h1>
+    <p class="text-lg mb-6">Jaket. Sweater. Kaos. Semua dengan identitas kuat dan warna berani.</p>
+    <a href="#produk" class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-purple-900">Lihat Produk</a>
   </section>
 
   <section id="produk" class="py-20 px-6 bg-white text-black">
-    <h2 class="text-3xl font-semibold text-center mb-10">Produk Unggulan</h2>
+    <h2 class="text-3xl font-semibold text-center mb-10">Koleksi Terbaru</h2>
     <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
       <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
-        <img src="https://www.nestleprofessional.co.id/sites/default/files/styles/np_product_detail/public/2023-07/43D_20220606_RD_Nescafe_Classic_BCP_SIC_2g_44210966_A10-01.jpg?itok=JQkVVYfK" alt="Nescafe Classic" class="w-full h-60 object-contain mb-4">
-        <h3 class="text-xl font-semibold mb-2">Nescafe Classic</h3>
-        <p class="text-gray-700 mb-2">Kopi instan klasik dengan rasa khas</p>
-        <div class="text-primary font-bold text-lg">Rp 25.000</div>
+        <img src="https://images.unsplash.com/photo-1602810313328-6cf30864b1f2?auto=format&fit=crop&w=600&q=80" alt="Jaket" class="w-full h-60 object-cover mb-4">
+        <h3 class="text-xl font-semibold mb-2">Jaket Signature</h3>
+        <p class="text-gray-700 mb-2">Jaket hitam dengan aksen ungu, cocok untuk segala cuaca.</p>
+        <div class="text-primary font-bold text-lg">Rp 499.000</div>
       </div>
       <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
-        <img src="https://www.nescafe.com/id/sites/default/files/2025-03/Nescafe%20New%20Can%20Latte%20960_0.png" class="w-full h-60 object-contain mb-4">
-        <h3 class="text-xl font-semibold mb-2">Nescafe Latte</h3>
-        <p class="text-gray-700 mb-2">Kopi susu lembut dan creamy</p>
-        <div class="text-primary font-bold text-lg">Rp 28.000</div>
+        <img src="https://images.unsplash.com/photo-1629230174234-999d473f38ec?auto=format&fit=crop&w=600&q=80" alt="Sweater" class="w-full h-60 object-cover mb-4">
+        <h3 class="text-xl font-semibold mb-2">Sweater Oversize</h3>
+        <p class="text-gray-700 mb-2">Nyaman, hangat, dan stylish dengan warna ungu elegan.</p>
+        <div class="text-primary font-bold text-lg">Rp 349.000</div>
       </div>
       <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
-        <img src="https://sc04.alicdn.com/kf/U747007bee1f6429784dba35be702fd99Y.jpg" alt="Black Roast" class="w-full h-60 object-contain mb-4">
-        <h3 class="text-xl font-semibold mb-2">Nescafe Black Roast</h3>
-        <p class="text-gray-700 mb-2">Rasa pekat untuk energi ekstra</p>
-        <div class="text-primary font-bold text-lg">Rp 30.000</div>
+        <img src="https://images.unsplash.com/photo-1618354691267-670c3747c826?auto=format&fit=crop&w=600&q=80" alt="Kaos" class="w-full h-60 object-cover mb-4">
+        <h3 class="text-xl font-semibold mb-2">Kaos Logo Street</h3>
+        <p class="text-gray-700 mb-2">Kaos basic dengan print logo VioletWear dan potongan trendi.</p>
+        <div class="text-primary font-bold text-lg">Rp 199.000</div>
       </div>
     </div>
   </section>
 
-  <section id="kontak" class="py-16 bg-primary text-white text-center">
-    <h2 class="text-2xl font-semibold mb-4">Kontak Kami</h2>
-    <p>Email: info@nescaffehub.id | WA: 0812-3456-7890</p>
+  <section id="tentang" class="py-16 bg-primary text-white text-center">
+    <h2 class="text-2xl font-semibold mb-4">Tentang VioletWear</h2>
+    <p>Brand streetwear lokal yang mengedepankan identitas dan warna. Desain orisinal untuk kamu yang berbeda.</p>
   </section>
 
-  <section class="py-10 bg-white text-center text-black">
-    <h2 class="text-2xl font-semibold mb-4">Lokasi Toko Kami</h2>
-    <div class="flex justify-center">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8157394587033!2d110.38740659999999!3d-7.8093214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a570077552e07%3A0x5a6cd30c5a2770da!2sNescafe%20Outlet%20Warungboto!5e0!3m2!1sen!2sid!4v1747789523660!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
-  </section>
-
-  <section class="py-10 bg-dark text-center">
-    <h2 class="text-2xl font-semibold mb-4">Lihat Iklan Nescaffe</h2>
-    <div class="flex justify-center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GaZVpPXqJck?si=W6o1l0qwGN3B4Ygj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+  <section id="kontak" class="py-10 bg-white text-center text-black">
+    <h2 class="text-2xl font-semibold mb-4">Hubungi Kami</h2>
+    <p>Email: support@violetwear.id | IG: @violetwear</p>
   </section>
 
   <footer class="text-center py-4 bg-primary text-white text-sm">
-    &copy; 2025 NescaffeHub. Semua hak dilindungi.
+    &copy; 2025 VioletWear. Semua hak dilindungi.
   </footer>
 </body>
 </html>
