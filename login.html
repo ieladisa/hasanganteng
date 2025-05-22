@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Admin - VioletWear</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="bg-white/60 backdrop-blur-md p-10 rounded-2xl shadow-xl w-full max-w-sm border border-primary">
+    <h1 class="text-3xl font-bold text-center mb-6 text-primary">Login Admin</h1>
+    <form id="loginForm" class="space-y-5">
+      <input type="text" id="username" placeholder="Username" class="w-full px-4 py-3 border border-primary rounded focus:outline-none focus:ring-2 focus:ring-primary" required>
+      <input type="password" id="password" placeholder="Password" class="w-full px-4 py-3 border border-primary rounded focus:outline-none focus:ring-2 focus:ring-primary" required>
+      <button type="submit" class="btn w-full">Masuk</button>
+    </form>
+  </div>
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value;
+      if (username === "admin" && password === "violetpass") {
+        window.location.href = "index.html";
+      } else {
+        alert("Username atau password salah!");
+      }
+    });
+  </script>
+</body>
+</html>

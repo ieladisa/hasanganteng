@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VioletWear - Street Style</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <header class="bg-primary text-white shadow sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">VioletWear</h1>
+      <nav class="space-x-6">
+        <a href="#produk" class="hover:underline">Produk</a>
+        <a href="#tentang" class="hover:underline">Tentang</a>
+        <a href="#kontak" class="hover:underline">Kontak</a>
+        <a href="login.html" class="btn">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="h-screen bg-cover bg-center flex items-center justify-center text-white text-center" style="background-image: url('https://images.unsplash.com/photo-1556905055-8f358a7a47b2');">
+    <div class="bg-black bg-opacity-60 p-10 rounded-xl">
+      <h2 class="text-5xl font-bold mb-4">Gaya Kalcermu Dimulai dari <span class="text-primary">VioletWear</span></h2>
+      <p class="text-xl mb-6">Jaket. Sweater. Kaos. Semua dengan identitas kuat dan warna berani.</p>
+      <a href="#produk" class="btn">Lihat Produk</a>
+    </div>
+  </section>
+
+  <section id="produk" class="py-20 px-6 bg-white text-black">
+    <h2 class="text-3xl font-semibold text-center mb-12">Koleksi Terbaru</h2>
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <!-- Produk Cards -->
+      <div class="card text-center">
+        <img src="//www.invincible.id/cdn/shop/files/HM26-CS-036-NORDIC-JACQURD-KNIT-SWEATER-2-A.jpg?v=1703662146&width=1500" alt="Jaket" class="w-full h-60 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Nordic Jacqurd Knit Sweater</h3>
+        <p class="mb-2">Pilihan Keluarga.</p>
+        <div class="text-primary font-bold text-lg">Rp 3.499.000</div>
+      </div>
+      <div class="card text-center">
+        <img src="//www.invincible.id/cdn/shop/files/52240-01.jpg?v=1746439041&width=1500" alt="Sweater" class="w-full h-60 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Rounded PAR Varsity Jacket</h3>
+        <p class="mb-2">Terlaris Saat Ini.</p>
+        <div class="text-primary font-bold text-lg">Rp 7.349.000</div>
+      </div>
+      <div class="card text-center">
+        <img src="//www.invincible.id/cdn/shop/files/52305-01.jpg?v=1746440177&width=1500" alt="Kaos" class="w-full h-60 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Cheap Strings T-Shirt</h3>
+        <p class="mb-2">Kaos Kalcer & Trendy saat ini.</p>
+        <div class="text-primary font-bold text-lg">Rp 199.000</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Lihat Video Koleksi</h2>
+        <iframe class="w-full rounded-lg shadow" height="315" src="https://www.youtube.com/embed/424pLRlQ--A?si=V-yxO65DkfTdI11N" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Lokasi Store Kami</h2>
+        <iframe class="w-full rounded-lg shadow" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2983383655787!2d106.80978913344532!3d-6.224337605921856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1759aea103f%3A0x5df66732b0898849!2sINVINCIBLE!5e0!3m2!1sen!2sid!4v1747791258133!5m2!1sen!2sid" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" class="py-16 bg-primary text-white text-center">
+    <h2 class="text-2xl font-semibold mb-4">Tentang VioletWear</h2>
+    <p class="max-w-2xl mx-auto">Brand streetwear lokal yang mengedepankan identitas dan warna. Desain orisinal untuk kamu yang berbeda.</p>
+  </section>
+
+  <section id="kontak" class="py-10 bg-white text-center text-black">
+    <h2 class="text-2xl font-semibold mb-4">Hubungi Kami</h2>
+    <p>Email: support@violetwear.id | IG: @violetwear</p>
+  </section>
+
+  <footer class="text-center py-4 bg-primary text-white text-sm">
+    &copy; 2025 VioletWear. Semua hak dilindungi.
+  </footer>
+</body>
+</html>
